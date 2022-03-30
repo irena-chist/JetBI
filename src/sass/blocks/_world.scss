@@ -1,0 +1,45 @@
+.world {
+    min-height: 750px;
+    position: relative;
+    background: url('../img/world.png') no-repeat 50%/cover;
+    opacity: .8;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        a {
+            &:hover {
+                text-decoration: none;
+                transform: scale(1.03);
+                transition: all .6s;
+            }
+        }
+    }
+    &__wrapper {
+        text-transform:uppercase;
+        margin: auto;
+        width:18em;
+        height:18em;
+        background:rgba(225, 225, 225, 0.5);
+        border-radius:20%;
+
+    }
+    &__count {
+        padding-top: 60px;
+        text-align: center;
+        color: $main-color;
+        z-index:1;
+        font-size: 70px; 
+        font-weight: bold;
+
+    }
+    &__descr {
+        text-align: center;
+        color: $dark-grey;
+        z-index:1;
+        font-size: 24px; 
+
+    }
+    
+}

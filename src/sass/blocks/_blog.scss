@@ -1,0 +1,143 @@
+.blog {
+    background: url('../img/fly.jpg') no-repeat 50%/cover;
+    padding: 80px 0 50px 0;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        h2 {
+            color: $dark-grey;
+            font-size: 48px; 
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+    }
+    &__btn {
+        background-color: $main-color;
+        border: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        cursor: pointer;
+        border-radius: 36px;
+        position: relative;
+        width: 250px;
+        height: 50px;
+        line-height: 24px;
+        border-radius: 30px;
+        margin-bottom: 6px;
+        text-align: center;
+        &:hover {
+            text-decoration: none;
+            transform: scale(1.03);
+            transition: all .6s;
+        }
+    }
+    &__wrapper {
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 80%;
+        a {
+            text-decoration: none;
+        }
+    }
+    &__img {
+        margin-top: 30px;
+        margin-left: 30px;
+        img{
+            width: 160px;
+        }
+    }
+    &__item {
+        position: relative;
+    }
+    &__link {
+        margin: 30px 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        &:hover {
+            text-decoration: none;
+            transform: scale(1.03);
+            transition: all .6s;
+            box-shadow: 0 0 10px 5px $light-grey;
+        }
+    }
+    &__h {
+        margin: 23px 15px 0 20px;
+        color: $dark-grey;
+        font-size: 16px; 
+        font-weight: 900;
+        text-transform: uppercase;
+        &:hover {
+            color:$main-color;
+        }
+    }
+    &__descr {
+        margin: 12px 20px 20px 20px;
+        color: $medium-grey;
+        font-size: 15px; 
+        font-weight: 100;
+        font-style: normal;
+        margin-bottom: 50px;
+    }
+    &__more {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute; 
+        bottom: 15px;
+        right: 30px;
+    }
+    &__text {
+        color: $main-color;
+        font-size: 15px; 
+        font-weight: 900;
+     
+    }
+    &__direction {
+        height: 10px;
+        margin-left: 10px;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute; 
+        bottom: 15px;
+        left: 20px;
+    }
+    &__info {
+        display: flex;
+
+    }
+    &__calendar {
+        display: flex;
+        align-items: center;
+        img {
+            width: 20px;
+
+        }
+    }
+    &__date {
+        margin-left: 10px;
+        color: $medium-grey;
+        font-size: 14px; 
+        font-weight: 100;
+    }
+    &__person {
+        display: flex;
+        margin-left: 20px;
+        align-items: center;
+        img {
+            width: 24px;
+        }
+    }
+    &__name {
+        margin-left: 10px;
+        color: $medium-grey;
+        font-size: 14px; 
+        font-weight: 100;
+    }
+}

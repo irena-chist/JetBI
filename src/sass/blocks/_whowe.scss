@@ -1,0 +1,52 @@
+.whowe {
+        margin-top: 100px;
+    &__h2 {
+        color: $dark-grey;
+        font-size: 48px; 
+        font-weight: 100;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    &__text {
+        margin-top: 40px;
+        color: $medium-grey;
+        font-size: 15px; 
+        font-weight: 100;
+        font-style: normal;
+    }
+    &__btns {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none; 
+        }
+    }
+    &__btn {
+        background-color: none;
+        border: none;
+        color: $medium-grey;
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        cursor: pointer;
+        border: 1px solid $medium-grey;
+        border-radius: 36px;
+        position: relative;
+        width: 285px;
+        height: 50px;
+        line-height: 30px;
+        border-radius: 30px;
+        margin-bottom: 6px;
+        text-align: center;
+        margin-bottom: 90px;
+
+        &:hover {
+            text-decoration: none;
+            transform: scale(1.03);
+            transition: all .6s;
+            border: 1px solid $main-color;
+            color: $main-color;
+        }
+    }
+}

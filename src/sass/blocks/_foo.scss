@@ -1,0 +1,115 @@
+.foo {
+    min-height: 100px;
+    background-color: $dark-grey;
+    &__leftlogo {
+        position: relative;
+    }
+    &__social {
+        position: absolute;
+        top: 110px;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        width: 150px;
+    }
+    &__about {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__info {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        font-style: normal;
+        font-weight: 100;
+        color: $medium-grey;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+            transition: all .6s;
+        }
+    }
+    &__connect {
+        margin-top: 50px;
+    }
+    &__phone {
+        font-style: normal;
+        font-weight: 100;
+        color: $medium-grey;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+            transition: all .6s;
+        }
+    }
+    &__image {
+        width: 20px;
+        height: 20px;
+    }
+    &__address {
+        margin-top: 10px;
+        display: flex;
+        font-style: normal;
+        font-weight: 100;
+        color: $medium-grey;
+    }
+    &__link {
+        &:hover {
+            text-decoration: none;
+            transform: scale(1.2);
+            transition: all .6s;
+        }
+    }
+    &__email {
+        margin-top: 10px;
+        display: flex;
+        font-style: normal;
+        font-weight: 900;
+        color: $medium-grey;
+        a {
+            font-style: normal;
+            font-weight: 100;
+            color: $medium-grey;
+            &:hover {
+                color: $main-color;
+                text-decoration: none;
+                transition: all .6s;
+            }
+        }
+    }
+    &__text {
+        margin-left: 7px;
+        margin-right: 10px;
+    }
+    &__policy {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 15px;
+    }
+    &__copyright {
+
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 100;
+        color: $medium-grey;
+    }
+    &__poli {
+        a {
+            font-size: 14px;
+            font-weight: 100;
+            color: $medium-grey;
+            &:hover {
+                color: $main-color;
+                text-decoration: none;
+                transition: all .6s;
+            }
+        }        
+    }
+}

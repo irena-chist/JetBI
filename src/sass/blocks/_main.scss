@@ -1,0 +1,32 @@
+.main {
+    min-height: 850px;
+    position: relative;
+    background: url('../img/main.jpg') no-repeat 50%/cover;
+    &__wrapper {
+        margin-left: 60%;
+        padding-top: 20%;
+    }
+
+    &__menu {
+        font-style: normal;
+        font-weight: 1000;
+        color: $dark-grey;
+        font-size: 20px;
+        line-height: 37px;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+    &__descr {
+        color: $medium-grey;
+        margin-left: 60%;
+        padding-top: 20%;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+
+    }
+}
